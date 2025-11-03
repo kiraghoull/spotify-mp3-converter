@@ -17,8 +17,8 @@ import streamlit as st
 # ==========================================
 # SPOTIFY API
 # ==========================================
-SPOTIFY_CLIENT_ID = 'COLOQUE_SEU_CLIENT_ID_AQUI'
-SPOTIFY_CLIENT_SECRET = 'COLOQUE_SEU_CLIENT_SECRET_AQUI'
+SPOTIFY_CLIENT_ID = 'a329b4abe42c46c8928c082816bc8d36'
+SPOTIFY_CLIENT_SECRET = '2d23bae3182b44f38662abf837a26fe7'
 
 auth_manager = SpotifyClientCredentials(client_id=SPOTIFY_CLIENT_ID, client_secret=SPOTIFY_CLIENT_SECRET)
 sp = spotipy.Spotify(auth_manager=auth_manager)
@@ -142,3 +142,4 @@ if st.button("Converter"):
         messages = download_spotify_content(spotify_url)
         for msg in messages:
             st.write(msg)
+
