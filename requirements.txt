@@ -4,4 +4,3 @@ spotipy
 mutagen
 rapidfuzz
 requests
-ffmpeg
