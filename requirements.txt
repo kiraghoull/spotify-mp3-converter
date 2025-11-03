@@ -1,0 +1,5 @@
+yt-dlp
+spotipy
+mutagen
+rapidfuzz
+requests
